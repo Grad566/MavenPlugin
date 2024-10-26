@@ -1,0 +1,13 @@
+<plugin>
+    <groupId>org.plugin</groupId>
+    <artifactId>MavenPlugin</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <mojos>
+        <mojo>
+            <goal>developer-info</goal>
+            <implementation>org.plugin.DeveloperInfoMojo</implementation>
+        </mojo>
+    </mojos>
+</plugin>
+
+
