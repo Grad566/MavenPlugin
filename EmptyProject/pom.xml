@@ -14,4 +14,28 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.plugin</groupId>
+                <artifactId>MavenPlugin</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </plugin>
+        </plugins>
+    </build>
+
+    <developers>
+        <developer>
+            <id>johndoe</id>
+            <name>John Doe</name>
+            <email>john.doe@example.com</email>
+            <url>http://example.com</url>
+            <roles>
+                <role>Developer</role>
+            </roles>
+            <organization>Example Inc.</organization>
+            <timezone>UTC</timezone>
+        </developer>
+    </developers>
+
 </project>
